@@ -1,0 +1,46 @@
+.linkedInBtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+.likedBtn{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.commentBtn{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.repostBtn{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.sendBtn{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+#likeIcon{
+    width: 16px;
+    height: 16px;
+}
+#commentIcon{
+    width: 16px;
+    height: 16px;
+}
+#repostIcon{
+    width: 16px;
+    height: 16px;
+}
+#sendIcon{
+    width:16px;
+    height:16px;   
+}
