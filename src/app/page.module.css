@@ -3,6 +3,8 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  width: 100%;
+  box-sizing: border-box;
   /* border: 1px solid black; */
 }
 .page{
@@ -25,7 +27,6 @@
  gap: 6;
  cursor: pointer;
  box-shadow: -2px 7px 5px -6px rgba(0, 0, 0, .61);
- box-sizing: border-box;
 }
 .cards-rating{
   display: flex;
@@ -64,4 +65,3 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
-

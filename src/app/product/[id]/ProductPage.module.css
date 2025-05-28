@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 16px 24px;
+    gap: 154px;
+}
+.image-container{
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+.details-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.rating{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 4px;
+    width: fit-content;
+    padding:2px;
+    background-color: green;
+    border-radius: 2px;
+    color:white
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    margin-top: -5px;
+}
+.discount{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1px;
+    font-weight: bold;
+    color: green;
+}
+.actualCost{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1px;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+}
+.cut-off{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1px;
+    font-weight: bold;
+    color: grey;
+    font-size: medium;
+    text-decoration: line-through;
+}
+.offer > p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 16px;
+    font-size: medium;
+    font-weight: bold;
+}
+.offer > ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0%;
+    margin-top: 8px;
+    gap: 4px;
+}
+.offer>ul>li>span{
+    margin-left: 8px;
+}
+.offer>ul>li{
+    direction: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.reviews>span{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 16px;
+    font-size: medium;
+    font-weight: bold;
+}
+.gap-reviews{
+   margin-top: 8px;
+}
+.addCart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    gap: 4px;
+    color: gray;
+}
+.logo{
+
+}
